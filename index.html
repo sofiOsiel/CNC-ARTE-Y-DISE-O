@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CNC ARTE Y DISEÑO — Cuadros LED artesanales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <img src="assets/icons/logo.jpg" alt="Logo CNC ARTE Y DISEÑO" class="brand-logo"/>
+        <span class="brand-text">CNC ARTE Y DISEÑO</span>
+      </a>
+      <nav class="main-nav" aria-label="Menú principal">
+        <a href="#home">Inicio</a>
+        <a href="#catalog">Catálogo</a>
+        <a href="#social">Redes</a>
+        <a href="#about">Contacto</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 id="hero-title">CNC ARTE Y DISEÑO</h1>
+          <p class="subtitle">Cuadros LED artesanales en trupan, hechos con precisión CNC</p>
+          <div class="hero-actions">
+            <a class="btn primary" id="view-catalog-btn" href="#catalog">Ver Catálogo</a>
+            <a class="btn outline" id="hero-whatsapp-btn" href="#">Escríbenos por WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Carrusel junto al hero. En mobile se mostrará debajo del texto. -->
+        <div class="hero-carousel" id="hero-carousel" aria-label="Carrusel de productos" tabindex="0">
+          <div class="carousel-track" id="carousel-track">
+            <!-- Slides generadas dinámicamente por JS -->
+          </div>
+          <div class="carousel-dots" id="carousel-dots" role="tablist" aria-label="Navegación de carrusel">
+            <!-- Dots generados dinámicamente -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog" aria-labelledby="catalog-title">
+      <div class="container">
+        <h2 id="catalog-title">Catálogo</h2>
+        <p class="catalog-intro">Selecciona un diseño y consulta por disponibilidad y personalización.</p>
+        <div class="catalog-search">
+          <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+          <input type="text" id="product-search" class="search-input" placeholder="Buscar productos..." aria-label="Buscar productos">
+        </div>
+        <div id="products-grid" class="products-grid" role="list">
+          <!-- Productos generados dinámicamente -->
+        </div>
+      </div>
+    </section>
+
+    <section class="social" id="social" aria-labelledby="social-title">
+      <div class="container">
+        <h3 id="social-title">Síguenos en nuestras redes sociales</h3>
+        <div class="social-links">
+          <a href="https://www.tiktok.com/@cnc_arte_1?_r=1&_t=ZM-92lhW38qMvI" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-link tiktok">
+            <span class="social-icon" aria-hidden="true">
+              <img src="assets/icons/tiktok.png" alt="TikTok" />
+            </span>
+            <span class="social-label">TikTok</span>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61578918754427" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-link facebook">
+            <span class="social-icon" aria-hidden="true">
+              <img src="assets/icons/facebook.png" alt="Facebook" />
+            </span>
+            <span class="social-label">Facebook</span>
+          </a>
+          <a href="#" id="social-whatsapp-btn" aria-label="WhatsApp" class="social-link whatsapp">
+            <span class="social-icon" aria-hidden="true">
+              <img src="assets/icons/whatsapp.png" alt="WhatsApp" />
+            </span>
+            <span class="social-label">WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h3 id="about-title">Sobre CNC ARTE Y DISEÑO</h3>
+        <p>
+          Somos un emprendimiento dedicado a la fabricación artesanal de cuadros en trupan, combinando la precisión de
+          máquinas CNC con acabados manuales cuidadosamente realizados. Usamos iluminación LED (fija y RGB) para dar vida
+          a diseños personalizados. Ofrecemos asesoría en tamaños, tipos de luz y personalización para proyectos únicos.
+        </p>
+        <ul>
+          <li>Trabajo artesanal con acabado personalizado</li>
+          <li>Producción con routers CNC de precisión</li>
+          <li>Material principal: trupan</li>
+          <li>Iluminación: LED fijo y RGB</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h3 id="contact-title">Contacto</h3>
+        <p>¿Tienes un proyecto o quieres una pieza personalizada? Escríbenos por WhatsApp o por nuestras redes.</p>
+        <p class="muted"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© CNC ARTE Y DISEÑO - Todos los derechos reservados</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/profile.php?id=61578918754427" target="_blank" rel="noopener noreferrer" class="social-link facebook small" aria-label="Facebook">
+          <span class="social-icon"><img src="assets/icons/facebook.png" alt="Facebook"/></span>
+        </a>
+        <a href="https://www.tiktok.com/@cnc_arte_1?_r=1&_t=ZM-92lhW38qMvI" target="_blank" rel="noopener noreferrer" class="social-link tiktok small" aria-label="TikTok">
+          <span class="social-icon"><img src="assets/icons/tiktok.png" alt="TikTok"/></span>
+        </a>
+        <a href="#" id="footer-whatsapp-btn" class="social-link whatsapp small" aria-label="WhatsApp">
+          <span class="social-icon"><img src="assets/icons/whatsapp.png" alt="WhatsApp"/></span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
