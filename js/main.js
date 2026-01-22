@@ -254,6 +254,13 @@ const PRODUCTS = [
     size: 'Personalizable',
     lightType: 'LED a elección',
     price: 'S/ 0.',
+    variants: [
+      
+      
+      { label: 'mediano 50x60', price: 230}
+       
+      
+    ]
    
   },
    {
@@ -314,7 +321,13 @@ const PRODUCTS = [
     description: 'Lámpara de pared de dolar, representada con su silueta. Hecha en trupán con corte CNC de alta precisión.',
     size: 'varios tamaños al gusto',
     lightType: 'LED a elección',
-    price: 'S/ 0.'
+    price: 'S/ 0.',
+    variants: [
+      
+      { label: 'pequeño 40x50', price: 160 },
+      { label: 'mediano 50x60', price: 230}
+    ]
+   
   },
      {
     id: 'p028',
@@ -323,7 +336,12 @@ const PRODUCTS = [
     description: 'Lámpara de pared con Neon de League of Legends, representada con su silueta. Hecha en trupán con corte CNC de alta precisión.',
     size: 'varios tamaños al gusto',
     lightType: 'NEON a elección',
-    price: 'S/ 0.'
+    price: 'S/ 0.',
+    variants: [
+      
+      { label: 'pequeño 60x60', price: 460 },
+      { label: 'mediano 70x70', price: 550}
+    ]
   },
   {
     id: 'p029',
@@ -332,9 +350,14 @@ const PRODUCTS = [
     description: 'Lámpara de pared con Neon de Alas Duki, representada con su silueta.para los fans de Duki',
     size: 'varios tamaños al gusto',
     lightType: 'NEON a elección',
-    price: 'S/ 0.'
+    price: 'S/ 0.',
+    variants: [
+      
+      { label: 'pequeño 50x50', price: 400},
+      { label: 'mediano 60x60', price: 460}
+    ]
   },
-
+    
 ];
 
 // helper: crea la URL de WhatsApp con mensaje personalizado
