@@ -305,8 +305,17 @@ const PRODUCTS = [
     lightType: 'LED a elección',
     price: 'S/ 280'
   },
-   {
+  {
     id: 'p026',
+    name: 'Lámpara de pared de Barcelona',
+    image: 'assets/img/barcelona.jpg',
+    description: 'Lámpara de pared de Barcelona un icono del futbol realizada en trupán con corte CNC de alta precisión, iluminada con luces LED que resaltan los detalles del diseño y crean un ambiente elegante y simbólico .',
+    size: '50x50',
+    lightType: 'LED azul y rojo ',
+    price: 'S/ 230'
+  },
+   {
+    id: 'p027',
     name: 'Lámpara de pared de auto',
     image: 'assets/img/auto.jpg',
     description: 'Lámpara de pared de auto deportivo, representada con su silueta. Hecha en trupán con corte CNC de alta precisión, iluminada con luces LED que resaltan los detalles del diseño y crean un ambiente elegante y simbólico .',
@@ -315,7 +324,7 @@ const PRODUCTS = [
     price: 'S/ 270'
   },
    {
-    id: 'p027',
+    id: 'p028',
     name: 'Lámpara de pared de dolar',
     image: 'assets/img/dolar.jpg',
     description: 'Lámpara de pared de dolar, representada con su silueta. Hecha en trupán con corte CNC de alta precisión.',
@@ -330,7 +339,7 @@ const PRODUCTS = [
    
   },
      {
-    id: 'p028',
+    id: 'p029',
     name: 'Lámpara de pared con Neon de League of Legends (Yasuo)',
     image: 'assets/img/neon azul.jpg',
     description: 'Lámpara de pared con Neon de League of Legends, representada con su silueta. Hecha en trupán con corte CNC de alta precisión.',
@@ -344,7 +353,7 @@ const PRODUCTS = [
     ]
   },
   {
-    id: 'p029',
+    id: 'p030',
     name: 'Lámpara de pared con Neon de Alas Duki',
     image: 'assets/img/neon morado.jpg',
     description: 'Lámpara de pared con Neon de Alas Duki, representada con su silueta.para los fans de Duki',
