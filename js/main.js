@@ -152,9 +152,14 @@ const PRODUCTS = [
     name: 'Lampara de Pared de Batman',
     image: 'assets/img/batman.jpg',
     description: 'Cuadro decorativo de Batman con CNC de 12mm de grosor ,cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiar las luces a voluntad RGB con costo adicional de 40 bs mas',
-    size: '90X35 cm',
+    size: 'tamaño personalizable',
     lightType: 'LED a elección',
-    price: 'S/ 230',
+    price: 'S/ 0',
+    variants: [
+      { label: 'Pequeño 20x55', price: 100 },
+      { label: 'Mediano 35x80', price: 200 },
+      { label: 'Grande 35x90', price: 230}
+    ]
   
   },
   {
