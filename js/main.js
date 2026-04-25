@@ -74,6 +74,7 @@ const PRODUCTS = [
     lightType: 'RGB  a elección',
     price: 'S/ 0.',
     variants: [
+      { label: ' Mas Pequeño 40x40', price: 140 },
       { label: 'Pequeño 50x50', price: 200 },
       { label: 'Mediano 60x60', price: 270 },
       { label: 'Grande 70x70', price: 370}
@@ -112,13 +113,17 @@ const PRODUCTS = [
   {
     id: 'p009',
     name: 'Cuadro de Spiderman (araña contorno y nombre a elección)',
-    image: 'assets/img/araña controno.jpg',
-    description: 'Motivo floral tallado en trupán con luz cálida.',
-    size: '80x60 cm',
+    image: 'assets/img/boris.jpg',
+    description: 'diseño de trupan con nombre a elecion y da un lindo toque de modernidad a tu espacio.',
+    size: 'personalizable',
     lightType: 'LED fijo rojo',
-    price: 'S/ 320',
-    
-  },
+    price: 'S/ 0',
+    variants: [
+      
+      { label: 'Mediano 60X40', price: 200 },
+      { label: 'Grande  70X50', price: 280 }
+    ]
+  }, 
   {
     id: 'p010',
     name: 'Cuadro de Spiderman (sobresaliente con nombre personalizado)',
@@ -151,7 +156,7 @@ const PRODUCTS = [
     id: 'p012',
     name: 'Lampara de Pared de Batman',
     image: 'assets/img/batman.jpg',
-    description: 'Cuadro decorativo de Batman con CNC de 12mm de grosor ,cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiar las luces a voluntad RGB con costo adicional de 40 bs mas',
+    description: 'Cuadro decorativo de Batman con CNC de 12mm de grosor ,cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiar las luces a voluntad RGB con costo adicional de 30 bs mas',
     size: 'tamaño personalizable',
     lightType: 'LED a elección',
     price: 'S/ 0',
@@ -164,36 +169,51 @@ const PRODUCTS = [
   },
   {
     id: 'p013',
+    name: 'Lampara de Pared de Batman v2',
+    image: 'assets/img/batman v2.jpg',
+    description: 'Cuadro decorativo de Batman con CNC de 12mm de grosor ,cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiar las luces a voluntad RGB con costo adicional de 30 bs mas',
+    size: 'tamaño personalizable',
+    lightType: 'LED a elección',
+    price: 'S/ 0',
+    variants: [
+      { label: 'Mediano 45X80 ', price: 235},
+      { label: 'Grande  45X90', price: 275},
+   
+    ]
+  
+  },
+  {
+    id: 'p014',
     name: 'Lampara de Pared de Batman silueta (REALISTA) ',
     image: 'assets/img/batman medio cuerpo.jpg',
-    description: 'Cuadro decorativo de Batman silueta con CNC de 12mm de grosor ,cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiar las luces a voluntad RGB con costo adicional de 40 bs mas',
+    description: 'Cuadro decorativo de Batman silueta con CNC de 12mm de grosor ,cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiar las luces a voluntad RGB con costo adicional de 30 bs mas',
     size: '90X50 cm',
     lightType: 'LED a elección',
     price: 'S/ 350',
   
   },
   {
-    id: 'p014',
+    id: 'p015',
     name: 'Lampara de Pared de Batman silueta (Mss) ',
     image: 'assets/img/batman silueta.jpg',
-    description: 'Cuadro decorativo de Batman silueta con CNC de 12mm de grosor ,cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiar las luces a voluntad RGB con costo adicional de 40 bs mas',
+    description: 'Cuadro decorativo de Batman silueta con CNC de 12mm de grosor ,cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiar las luces a voluntad RGB con costo adicional de 30 bs mas',
     size: '50X70 cm',
     lightType: 'LED a elección',
     price: 'S/ 270',
   
   },
   {
-    id: 'p015',
+    id: 'p016',
     name: 'Lampara de pared de Control Gamer',
     image: 'assets/img/control.jpg',
-    description: 'Cuadro decorativo de Control Gamer , de grosor cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 40 bs mas',
+    description: 'Cuadro decorativo de Control Gamer , de grosor cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 30 bs mas',
     size: '60x40 cm',
     lightType: 'LED a elección ',
     price: 'S/ 190',
    
   },
   {
-    id: 'p016',
+    id: 'p017',
     name: 'Cuadro de Thundercats',
     image: 'assets/img/tundercat.jpg',
     description: 'Diseño con silueta de logo de Thundercats con luz led roja muestra un acabado limpio y preciso',
@@ -208,17 +228,27 @@ const PRODUCTS = [
     ]
   },
   {
-    id: 'p017',
+    id: 'p018',
     name: 'Cuadro de Call of Duty',
     image: 'assets/img/call of duty.jpg',
-    description: 'Diseño con silueta de logo de Call of Duty cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 40 bs mas',
+    description: 'Diseño con silueta de logo de Call of Duty cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 30 bs mas',
     size: '90X35 cm',
     lightType: 'LED a elección',
     price: 'S/ 230',
    
   },
   {
-    id: 'p018',
+    id: 'p019',
+    name: 'Cuadro de Mario Bros',
+    image: 'assets/img/mario.jpg',
+    description: 'Diseño con silueta de logo de Mario Bros cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 30 bs mas',
+    size: '50x50 cm',
+    lightType: 'LED a elección',
+    price: 'S/ 200',
+   
+  },
+  {
+    id: 'p020',
     name: 'Lampara de pared de Minecraft de Creeper',
     image: 'assets/img/creeper.jpg',
     description: 'Lampara de pared de Creeper de Minecraft hecha en CNC  sobre  trupan y con iluminacion led crea un efecto increible en la pared .',
@@ -234,7 +264,7 @@ const PRODUCTS = [
   }
   ,
   {
-    id: 'p019',
+    id: 'p021',
     name: 'Lampara de pared de letrero de Minecraft',
     image: 'assets/img/letrero minicraft nuevo.jpg',
     description: 'Letrero decorativo inspirado en Minecraft  iluminado con luces LED que resaltan los detalles del logo de minecraft  y crean un ambiente acogedor y temático para fans del juego.',
@@ -243,7 +273,7 @@ const PRODUCTS = [
     price: 'S/ 230'
   },
   {
-    id: 'p020',
+    id: 'p022',
     name: 'Lámpara de Pared de Mariposa',
     image: 'assets/img/mariposa.jpg',
     description: 'Decoracion de mariposa floral en trupan iluminado cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 40 bs mas',
@@ -251,8 +281,17 @@ const PRODUCTS = [
     lightType: 'led a elección',
     price: 'S/ 350'
   },
+   {
+    id: 'p023',
+    name: 'Lámpara de Pared de Michael Jackson',
+    image: 'assets/img/michael.jpg',
+    description: 'Decoracion de michael jackson en trupan iluminado cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 40 bs mas',
+    size: '60x50 cm',
+    lightType: 'led a elección',
+    price: 'S/ 240'
+  },
   {
-    id: 'p021',
+    id: 'p024',
     name: 'Lampara de pared de Mascota',
     image: 'assets/img/perro.jpg',
     description: 'Arte con luz para tu mascota 🐾✨ Personaliza con su nombre y elige el color de luz LED que más te guste. Ideal para decorar su espacio especial en casa. Hecho en trupán con corte CNC de alta precisión. ¡Un detalle único para los amantes de los animales! ',
@@ -269,7 +308,7 @@ const PRODUCTS = [
    
   },
    {
-    id: 'p022',
+    id: 'p025',
     name: 'Lampara de pared de Caballo',
     image: 'assets/img/caballo.jpg',
     description: 'arte con luz para los amantes de los caballos 🐎✨ Personaliza con su nombre y elige el color de luz LED que más te guste. Ideal para decorar su espacio especial en casa. Hecho en trupán con corte CNC de alta precisión. ¡Un detalle único para los amantes de los caballos! ',
@@ -284,7 +323,7 @@ const PRODUCTS = [
    
   },
   {
-    id: 'p023',
+    id: 'p026',
     name: 'Lámpara de pared de Themis',
     image: 'assets/img/themis.jpg',
     description: 'Lámpara de pared de Themis, la diosa de la justicia, representada con una balanza y una espada. Hecha en trupán con corte CNC de alta precisión, iluminada con luces LED que resaltan los detalles del diseño y crean un ambiente elegante y simbólico. Ideal para oficinas, despachos legales o espacios que valoren la justicia y el equilibrio .',
@@ -293,7 +332,7 @@ const PRODUCTS = [
     price: 'S/ 240'
   },
   {
-    id: 'p024',
+    id: 'p027',
     name: 'Lámpara de pared de abogado penalista',
     image: 'assets/img/abogado penalista.jpg',
     description: 'Lámpara de pared de abogado penalista, representada con una balanza y un libro de leyes.se hacen diseños personalizados refernte a abogados o penalistas',
@@ -302,7 +341,7 @@ const PRODUCTS = [
     price: 'S/ 0.'
   },
   {
-    id: 'p025',
+    id: 'p028',
     name: 'Lámpara de pared de Messi',
     image: 'assets/img/messi.jpg',
     description: 'Lámpara de pared de Messi, el icono del fútbol, representada con su silueta. Hecha en trupán con corte CNC de alta precisión, iluminada con luces LED que resaltan los detalles del diseño y crean un ambiente elegante y simbólico .',
@@ -311,7 +350,7 @@ const PRODUCTS = [
     price: 'S/ 280'
   },
   {
-    id: 'p026',
+    id: 'p029',
     name: 'Lámpara de pared de Barcelona',
     image: 'assets/img/barcelona.jpg',
     description: 'Lámpara de pared de Barcelona un icono del futbol realizada en trupán con corte CNC de alta precisión, iluminada con luces LED que resaltan los detalles del diseño y crean un ambiente elegante y simbólico .',
@@ -320,7 +359,7 @@ const PRODUCTS = [
     price: 'S/ 230'
   },
    {
-    id: 'p027',
+    id: 'p030',
     name: 'Lámpara de pared de auto',
     image: 'assets/img/auto.jpg',
     description: 'Lámpara de pared de auto deportivo, representada con su silueta. Hecha en trupán con corte CNC de alta precisión, iluminada con luces LED que resaltan los detalles del diseño y crean un ambiente elegante y simbólico .',
@@ -329,7 +368,7 @@ const PRODUCTS = [
     price: 'S/ 270'
   },
    {
-    id: 'p028',
+    id: 'p031',
     name: 'Lámpara de pared de dolar',
     image: 'assets/img/dolar.jpg',
     description: 'Lámpara de pared de dolar, representada con su silueta. Hecha en trupán con corte CNC de alta precisión.',
@@ -344,7 +383,7 @@ const PRODUCTS = [
    
   },
      {
-    id: 'p029',
+    id: 'p032',
     name: 'Lámpara de pared con Neon de League of Legends (Yasuo)',
     image: 'assets/img/neon azul.jpg',
     description: 'Lámpara de pared con Neon de League of Legends, representada con su silueta. Hecha en trupán con corte CNC de alta precisión.',
@@ -358,7 +397,7 @@ const PRODUCTS = [
     ]
   },
   {
-    id: 'p030',
+    id: 'p033',
     name: 'Lámpara de pared con Neon de Alas Duki',
     image: 'assets/img/neon morado.jpg',
     description: 'Lámpara de pared con Neon de Alas Duki, representada con su silueta.para los fans de Duki',
