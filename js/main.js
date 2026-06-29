@@ -8,11 +8,9 @@ const BUSINESS_NAME = "CNC ARTE Y DISEÑO";
 // Moneda local
 const CURRENCY = 'Bs';
 
-// Número de WhatsApp (usar formato internacional sin + ni espacios), dejar vacío para abrir sólo el mensaje
-// Ejemplo: const WHATSAPP_NUMBER = '56912345678';
 const WHATSAPP_NUMBER = "59163045636";
 
-// Array de productos (fácil de modificar/expandir)
+// Array de productos 
 const PRODUCTS = [
   {
     id: 'p001',
@@ -204,6 +202,17 @@ const PRODUCTS = [
   },
   {
     id: 'p016',
+    name: 'Lampara de pared del logo de Nightwing (DC Comics)',
+    image: 'assets/img/robin.jpg',
+    description: ' la identidad del super heroe Nightwing, con su característico logo en forma de ave. Hecho en trupán con corte CNC de alta precisión, iluminado con luces LED que resaltan los detalles del diseño y crean un ambiente elegante y simbólico. Ideal para fans de DC Comics y coleccionistas de memorabilia de superhéroes.',
+    size: '90x40',
+    lightType: 'LED a elección',
+    price: 'S/ 250.',
+    
+   
+  },
+  {
+    id: 'p017',
     name: 'Lampara de pared de Control Gamer',
     image: 'assets/img/control.jpg',
     description: 'Cuadro decorativo de Control Gamer , de grosor cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 30 bs mas',
@@ -213,7 +222,18 @@ const PRODUCTS = [
    
   },
   {
-    id: 'p017',
+    id: 'p018',
+    name: 'Lampara de pared de Star Wars',
+    image: 'assets/img/starwars.jpg',
+    description: 'para los amamtes de star wars  arte en trupan con corte CNC de alta precisión. ¡Un detalle único para los amantes de la saga!',
+    size: '50x60',
+    lightType: 'LED a elección',
+    price: 'S/ 230.',
+    
+   
+  },
+  {
+    id: 'p019',
     name: 'Cuadro de Thundercats',
     image: 'assets/img/tundercat.jpg',
     description: 'Diseño con silueta de logo de Thundercats con luz led roja muestra un acabado limpio y preciso',
@@ -228,7 +248,7 @@ const PRODUCTS = [
     ]
   },
   {
-    id: 'p018',
+    id: 'p020',
     name: 'Cuadro de Call of Duty',
     image: 'assets/img/call of duty.jpg',
     description: 'Diseño con silueta de logo de Call of Duty cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 30 bs mas',
@@ -238,7 +258,7 @@ const PRODUCTS = [
    
   },
   {
-    id: 'p019',
+    id: 'p021',
     name: 'Cuadro de Mario Bros',
     image: 'assets/img/mario.jpg',
     description: 'Diseño con silueta de logo de Mario Bros cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 30 bs mas',
@@ -248,7 +268,7 @@ const PRODUCTS = [
    
   },
   {
-    id: 'p020',
+    id: 'p022',
     name: 'Lampara de pared de Minecraft de Creeper',
     image: 'assets/img/creeper.jpg',
     description: 'Lampara de pared de Creeper de Minecraft hecha en CNC  sobre  trupan y con iluminacion led crea un efecto increible en la pared .',
@@ -264,7 +284,7 @@ const PRODUCTS = [
   }
   ,
   {
-    id: 'p021',
+    id: 'p023',
     name: 'Lampara de pared de letrero de Minecraft',
     image: 'assets/img/letrero minicraft nuevo.jpg',
     description: 'Letrero decorativo inspirado en Minecraft  iluminado con luces LED que resaltan los detalles del logo de minecraft  y crean un ambiente acogedor y temático para fans del juego.',
@@ -273,7 +293,7 @@ const PRODUCTS = [
     price: 'S/ 230'
   },
   {
-    id: 'p022',
+    id: 'p024',
     name: 'Lámpara de Pared de Mariposa',
     image: 'assets/img/mariposa.jpg',
     description: 'Decoracion de mariposa floral en trupan iluminado cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 40 bs mas',
@@ -282,7 +302,7 @@ const PRODUCTS = [
     price: 'S/ 350'
   },
    {
-    id: 'p023',
+    id: 'p025',
     name: 'Lámpara de Pared de Michael Jackson',
     image: 'assets/img/michael.jpg',
     description: 'Decoracion de michael jackson en trupan iluminado cuenta con luz led a eleccion,blanca,calido,verde,azul,rojo o a control que puedas cambiarlas luces led a voluntad RGB con costo adicional de 40 bs mas',
@@ -291,7 +311,7 @@ const PRODUCTS = [
     price: 'S/ 240'
   },
   {
-    id: 'p024',
+    id: 'p026',
     name: 'Lampara de pared de Mascota',
     image: 'assets/img/perro.jpg',
     description: 'Arte con luz para tu mascota 🐾✨ Personaliza con su nombre y elige el color de luz LED que más te guste. Ideal para decorar su espacio especial en casa. Hecho en trupán con corte CNC de alta precisión. ¡Un detalle único para los amantes de los animales! ',
@@ -307,8 +327,26 @@ const PRODUCTS = [
     ]
    
   },
+  {
+    id: 'p027',
+    name: 'Lampara de pared de Mascota Gato',
+    image: 'assets/img/gato.jpg',
+    description: 'arte en trupan de un felino hermoso decorado con luces led que muestra cuando  amas a tu hermoso felino  ',
+    size: 'Personalizable',
+    lightType: 'LED a elección',
+    price: 'S/ 0.',
+    variants: [
+      
+      
+      { label: 'mediano 40x60', price: 200}
+    
+      
+    ]
+   
+  },
+
    {
-    id: 'p025',
+    id: 'p028',
     name: 'Lampara de pared de Caballo',
     image: 'assets/img/caballo.jpg',
     description: 'arte con luz para los amantes de los caballos 🐎✨ Personaliza con su nombre y elige el color de luz LED que más te guste. Ideal para decorar su espacio especial en casa. Hecho en trupán con corte CNC de alta precisión. ¡Un detalle único para los amantes de los caballos! ',
@@ -323,7 +361,7 @@ const PRODUCTS = [
    
   },
   {
-    id: 'p026',
+    id: 'p029',
     name: 'Lámpara de pared de Themis',
     image: 'assets/img/themis.jpg',
     description: 'Lámpara de pared de Themis, la diosa de la justicia, representada con una balanza y una espada. Hecha en trupán con corte CNC de alta precisión, iluminada con luces LED que resaltan los detalles del diseño y crean un ambiente elegante y simbólico. Ideal para oficinas, despachos legales o espacios que valoren la justicia y el equilibrio .',
@@ -332,7 +370,7 @@ const PRODUCTS = [
     price: 'S/ 240'
   },
   {
-    id: 'p027',
+    id: 'p030',
     name: 'Lámpara de pared de abogado penalista',
     image: 'assets/img/abogado penalista.jpg',
     description: 'Lámpara de pared de abogado penalista, representada con una balanza y un libro de leyes.se hacen diseños personalizados refernte a abogados o penalistas',
@@ -341,7 +379,7 @@ const PRODUCTS = [
     price: 'S/ 0.'
   },
   {
-    id: 'p028',
+    id: 'p031',
     name: 'Lámpara de pared de Messi',
     image: 'assets/img/messi.jpg',
     description: 'Lámpara de pared de Messi, el icono del fútbol, representada con su silueta. Hecha en trupán con corte CNC de alta precisión, iluminada con luces LED que resaltan los detalles del diseño y crean un ambiente elegante y simbólico .',
@@ -350,7 +388,7 @@ const PRODUCTS = [
     price: 'S/ 280'
   },
   {
-    id: 'p029',
+    id: 'p032',
     name: 'Lámpara de pared de Barcelona',
     image: 'assets/img/barcelona.jpg',
     description: 'Lámpara de pared de Barcelona un icono del futbol realizada en trupán con corte CNC de alta precisión, iluminada con luces LED que resaltan los detalles del diseño y crean un ambiente elegante y simbólico .',
@@ -359,7 +397,7 @@ const PRODUCTS = [
     price: 'S/ 230'
   },
    {
-    id: 'p030',
+    id: 'p033',
     name: 'Lámpara de pared de auto',
     image: 'assets/img/auto.jpg',
     description: 'Lámpara de pared de auto deportivo, representada con su silueta. Hecha en trupán con corte CNC de alta precisión, iluminada con luces LED que resaltan los detalles del diseño y crean un ambiente elegante y simbólico .',
@@ -368,7 +406,7 @@ const PRODUCTS = [
     price: 'S/ 270'
   },
    {
-    id: 'p031',
+    id: 'p034',
     name: 'Lámpara de pared de dolar',
     image: 'assets/img/dolar.jpg',
     description: 'Lámpara de pared de dolar, representada con su silueta. Hecha en trupán con corte CNC de alta precisión.',
@@ -383,7 +421,7 @@ const PRODUCTS = [
    
   },
      {
-    id: 'p032',
+    id: 'p035',
     name: 'Lámpara de pared con Neon de League of Legends (Yasuo)',
     image: 'assets/img/neon azul.jpg',
     description: 'Lámpara de pared con Neon de League of Legends, representada con su silueta. Hecha en trupán con corte CNC de alta precisión.',
@@ -397,7 +435,7 @@ const PRODUCTS = [
     ]
   },
   {
-    id: 'p033',
+    id: 'p036',
     name: 'Lámpara de pared con Neon de Alas Duki',
     image: 'assets/img/neon morado.jpg',
     description: 'Lámpara de pared con Neon de Alas Duki, representada con su silueta.para los fans de Duki',
@@ -413,7 +451,7 @@ const PRODUCTS = [
     
 ];
 
-// helper: crea la URL de WhatsApp con mensaje personalizado
+
 function createWhatsAppLink(productName){
   const message = `Hola, quiero consultar sobre el producto "${productName}" de ${BUSINESS_NAME}. ¿Está disponible?`;
   const encoded = encodeURIComponent(message);
@@ -624,6 +662,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   initHeroWhatsApp();
   initNavToggle();
   renderHeroCarousel();
+  renderCustomCarousel();
   startCarouselAutoRotate();
   createLightboxElements();
   setupSocialWhatsApp();
@@ -691,12 +730,127 @@ function renderHeroCarousel(){
   // set initial positions
   updateCarouselUI();
 
-  // pause on hover/focus
+  // pause on hover/focus  carrucel personalizado
   const carousel = document.getElementById('hero-carousel');
   carousel.addEventListener('mouseenter', pauseCarouselAutoRotate);
   carousel.addEventListener('mouseleave', startCarouselAutoRotate);
   carousel.addEventListener('focusin', pauseCarouselAutoRotate);
   carousel.addEventListener('focusout', startCarouselAutoRotate);
+}
+
+const SELECTED_CAROUSEL_IMAGES = [
+  'assets/img/zarcot.jpg',
+  'assets/img/briela.jpg',
+  'assets/img/lagarto.jpg',
+  'assets/img/pajaro.jpg',
+  'assets/img/joven.jpg',
+  'assets/img/señorita.jpg',
+  'assets/img/demon.jpg',
+  'assets/img/deadrose.jpg',
+  'assets/img/cubadent.jpg',
+  'assets/img/cruz.jpg',
+  'assets/img/cruz2.jpg',
+  'assets/img/barberia.jpg',
+  'assets/img/alvaro.jpg',
+];
+
+function getCustomCarouselItems(){
+  return SELECTED_CAROUSEL_IMAGES.filter(image => typeof image === 'string' && image.trim() !== '');
+}
+
+function renderCustomCarousel(){
+  const track = document.getElementById('custom-carousel-track');
+  const dotsWrap = document.getElementById('custom-carousel-dots');
+  const prevButton = document.getElementById('custom-prev');
+  const nextButton = document.getElementById('custom-next');
+  const customCarousel = document.getElementById('custom-carousel') || track?.closest('[id*="carousel"]');
+
+  if(!track || !dotsWrap) return;
+
+  const items = getCustomCarouselItems();
+  if(!items.length) return;
+
+  let currentIndex = 0;
+  let autoRotateInterval = null;
+
+  const render = () => {
+    track.innerHTML = '';
+    dotsWrap.innerHTML = '';
+
+    const imageSrc = items[currentIndex];
+    const slide = document.createElement('div');
+    slide.className = 'custom-carousel-slide';
+    slide.style.flex = '0 0 100%';
+    slide.style.display = 'flex';
+    slide.style.justifyContent = 'center';
+
+    const img = document.createElement('img');
+    img.src = imageSrc;
+    img.alt = 'Imagen seleccionada';
+    img.style.width = '100%';
+    img.style.maxHeight = '320px';
+    img.style.objectFit = 'cover';
+    img.style.borderRadius = '18px';
+    slide.appendChild(img);
+    track.appendChild(slide);
+
+    items.forEach((item, index) => {
+      const dot = document.createElement('button');
+      dot.type = 'button';
+      dot.className = 'custom-carousel-dot';
+      dot.setAttribute('aria-label', `Ir a la imagen ${index + 1}`);
+      dot.style.width = '10px';
+      dot.style.height = '10px';
+      dot.style.borderRadius = '999px';
+      dot.style.border = 'none';
+      dot.style.background = index === currentIndex ? '#f6b53d' : 'rgba(255,255,255,0.35)';
+      dot.addEventListener('click', () => {
+        currentIndex = index;
+        render();
+      });
+      dotsWrap.appendChild(dot);
+    });
+  };
+
+  const startAutoRotate = () => {
+    if(autoRotateInterval) return;
+    autoRotateInterval = setInterval(() => {
+      currentIndex = (currentIndex + 1) % items.length;
+      render();
+    }, 2000);
+  };
+
+  const stopAutoRotate = () => {
+    if(autoRotateInterval){
+      clearInterval(autoRotateInterval);
+      autoRotateInterval = null;
+    }
+  };
+
+  prevButton?.addEventListener('click', () => {
+    stopAutoRotate();
+    currentIndex = (currentIndex - 1 + items.length) % items.length;
+    render();
+    startAutoRotate();
+  });
+
+  nextButton?.addEventListener('click', () => {
+    stopAutoRotate();
+    currentIndex = (currentIndex + 1) % items.length;
+    render();
+    startAutoRotate();
+  });
+
+  // Pausar en hover/focus y reanudar cuando se va
+  if(track){
+    track.addEventListener('mouseenter', stopAutoRotate);
+    track.addEventListener('mouseleave', startAutoRotate);
+    track.addEventListener('focusin', stopAutoRotate);
+    track.addEventListener('focusout', startAutoRotate);
+  }
+
+  render();
+  startAutoRotate();
 }
 
 function updateCarouselUI(){
